@@ -1,0 +1,9 @@
+# Altium Designer 自动生成的本地缓存，不入库
+History/
+__Previews/
+Project Outputs for */
+
+# 临时/日志
+*.log
+~*.SchDoc
+~*.PrjPcb

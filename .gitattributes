@@ -1,0 +1,9 @@
+# Altium 原理图是 OLE 复合文档（二进制），必须原样存取，禁止行尾转换
+*.SchDoc binary
+*.SchLib binary
+*.PcbDoc binary
+*.PcbLib binary
+
+# 项目文件是文本（INI），统一 CRLF 便于 Altium 读写
+*.PrjPcb text eol=crlf
+*.PrjPcbStructure text eol=crlf
