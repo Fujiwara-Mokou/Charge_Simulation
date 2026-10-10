@@ -3,6 +3,10 @@
 *.SchLib binary
 *.PcbDoc binary
 *.PcbLib binary
+*.OutJob text eol=crlf
+
+# 导出的 PDF / 图纸产物是二进制，禁止行尾转换（core.autocrlf=true 下必须显式声明）
+*.pdf binary
 
 # 项目文件是文本（INI），统一 CRLF 便于 Altium 读写
 *.PrjPcb text eol=crlf
